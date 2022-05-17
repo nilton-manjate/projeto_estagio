@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+header > p {
+    color: #f44336;
+    font-size: large;
+}
+
+header > p > i {
+    padding-right: 10px;
+}
+
+#landing {
+    background-image: url('imagens/london.jpg');
+}
+
+.choices {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 200px;
+}
